@@ -1,0 +1,24 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+playwright-report/
+test-results/
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.npmrc
+.netrc
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# Local Figma session metadata; keep the archive copy on disk
+phase-1-wireframe/figma-wireframe-state.json

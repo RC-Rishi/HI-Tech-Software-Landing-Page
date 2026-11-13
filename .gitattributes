@@ -1,0 +1,7 @@
+* text=auto
+
+# Preserve the archived baseline byte-for-byte, including original line endings.
+phase-1-wireframe/** -text
+
+# Supplied SVG provenance metadata may depend on the original file bytes.
+assets/*.svg -text
